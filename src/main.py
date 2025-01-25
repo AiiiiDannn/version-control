@@ -4,5 +4,5 @@ from datetime import datetime
 current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 # Write to version.md
-with open('../version.md', 'w') as file:
+with open('/repo/version-control/docs/version.md', 'w') as file:
     file.write(f'Last updated: {current_time}\n')
